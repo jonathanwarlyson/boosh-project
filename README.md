@@ -1,0 +1,1 @@
+Esse é um projeto simples para praticar um pouco de PHP.
