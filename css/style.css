@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(11, 170, 117);
+    text-align: center;
+    position: relative;
+    height: 100%;
+    background: linear-gradient(#FCFAFB,#DCAE9F) fixed;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+table {
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+th {
+    height: 30px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
