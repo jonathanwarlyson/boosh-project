@@ -1,26 +1,98 @@
+@import url("https://use.typekit.net/iey7yuy.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(11, 170, 117);
+    background-image: linear-gradient(100.48deg, #FFB319 2.7%, #F8AD16 37.13%, #BA7E04 100.26%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+h1, h2, a {
+    font-family: 'azo-sans-web', sans-serif;
+    font-weight: 900;
+}
+
+.logo {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    width: 293px;
+    height: 77px;
+    top: 4.5em;
+}
+
+.slogan {
+    font-size: 23px;
+    margin: 0 auto;
     text-align: center;
     position: relative;
-    height: 100%;
-    background: linear-gradient(#FCFAFB,#DCAE9F) fixed;
-    background-repeat: no-repeat;
+    top: 3.2em;
+    color: #FCFCF8;
 }
 
-h1 {
-    font-size: 60px;
-}
-
-table {
-    width: 90%;
-    border-radius: 10px;
+.titulo {
+    position: relative;
     margin: 0 auto;
+    font-size: 34px;
+    line-height: 40.8px;
+    text-align: center;
+    width: 287px;
+    height: 125px;
+    top: 4em;
+    color: #FCFCF8;
 }
 
-th {
-    height: 30px;
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 25em;
+    background: #FCFCF8;
+    box-shadow: 0px -7px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 70px 70px 0px 0px;
 }
 
-table, th, td {
-    border: 1px solid black;
+.subtitulo {
+    position: relative;
+    width: 274px;
+    height: 94px;
+    top: 1.25em;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 31.2px;
+    text-align: center;
+    color: #FFB319;
+}
+
+.botão {
+    position: relative;
+    margin: 0 auto;
+    width: 344px;
+    height: 53px;
+    top: 5em;
+    background: #FFB319;
+    box-shadow: 0px 4px 4px rgba(217, 216, 216, 0.75);
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-area {
+    text-align: center;
+    position: relative;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #FCFCF8;
+    padding: 17px 138px;
 }
