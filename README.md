@@ -1,5 +1,5 @@
 PROJETO BOOSH!
-~~EM DESENVOLVIMENTO~~
+**EM DESENVOLVIMENTO**
 
 Um site responsivo que possibilita adicionar livros a uma estante virtual a fim de organiza-los. A principal tecnologia utilizada é PHP e em breve MySQL.
 
