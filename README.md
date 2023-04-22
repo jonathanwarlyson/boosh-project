@@ -5,7 +5,7 @@ Um site responsivo que possibilita adicionar livros a uma estante virtual a fim 
 
 Em sua primeira versão, ainda sendo desenvolvida, se espera contar com as seguintes funcionalidades:
 - Possibilidade de adicionar livros à Estante através de um cadastro.
-- Adicionar características do livro como nome, autor, número de páginas, gênero e data de conclusão.
+- Adicionar características do livro como nome, autor, número de páginas e gênero.
 - Visualizar a Estante: uma tabela com os livros adicionados.
 - Saber o total de livros na Estante.
 - Site responsivo.
