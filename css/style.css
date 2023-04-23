@@ -64,6 +64,7 @@ h1, h2, a, label {
     left: 1em;
     right: 1em;
     top: 14em;
+    max-height: 600px;
     background: #FCFCF8;
     box-shadow: 0px -7px 14px rgba(0, 0, 0, 0.25);
     border-radius: 50px 50px 50px 50px;
@@ -186,4 +187,49 @@ a {
     text-decoration: none;
     color: #FCFCF8;
     padding: 17px 118px;
+}
+
+.container-add {
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    top: 15em;
+    max-height: 600px;
+    background: #FCFCF8;
+    box-shadow: 0px -7px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 50px 50px 50px 50px;
+    padding-bottom: 11em;
+    text-align: center;
+}
+
+.titulo-add {
+    position: relative;
+    width: 248px;
+    height: 84px;
+    font-size: 26px;
+    margin: 0 auto;
+    top: 1.5em;
+}
+
+.cta-add {
+    height: 59px;
+    width: 207px;
+    top: 5em;
+    font-size: 23px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.button-est {
+    position: relative;
+    margin: 0 auto;
+    width: 19em;
+    height: 3.5em;
+    top: 9em;
+    background: #FFB319;
+    box-shadow: 0px 4px 4px rgba(217, 216, 216, 0.75);
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

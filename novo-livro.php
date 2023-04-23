@@ -1,5 +1,4 @@
 <?php include 'includes/header.php'; ?>
-
 <body>
 <img src="images/logocorw-p.png" class="logo" alt="">
 <section>
@@ -35,6 +34,13 @@
             </form>
         </div>
 </section>
+<div class="container-add">
+    <div class="modal-content">
+        <h1 class="titulo-add">VOCÊ ADICIONOU UM LIVRO NA SUA ESTANTE!</h1>
+        <h2 class="cta-add">ACESSE JÁ SUA ESTANTE!</h2>
+        <div class="button-est">IR PARA ESTANTE</div>
+    </div>
+</div>
 </body>
 
 <?php include 'includes/footer.php'; ?>
