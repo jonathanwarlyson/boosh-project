@@ -2,6 +2,7 @@
  declare (strict_types = 1);
  require 'includes/validate.php';
  include 'includes/header.php'; 
+ include 'includes/functions.php';
  
  $info = [
     'name' => '',
@@ -29,20 +30,20 @@
     
     $invalid = implode($errors);
     if ($invalid) {
-        $message = 'Please correct the following errors:';
+        $message = 'Complete o formulário!';
     } else {
-
+        redirect('successful-add.php');
     }
 }
 ?>
 
+
 <body>
-<?= $message ?>
 <img src="images/logocorw-p.png" class="logo" alt="">
 <section>
         <div class="container-nl">
             <h2 class="subtitulo-nl">NOVO LIVRO</h2>
-            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" id="form" method="POST">
+            <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" id="form" onsubmit="showModal()" method="POST">
                 <label for="nome">NOME DO LIVRO</label>
                 <input type="text" name="name" value="<?= htmlspecialchars($info['name']) ?>" placeholder="Digite o nome do livro">
                 <span class="error"><?= $errors['name'] ?></span>
@@ -73,18 +74,10 @@
                 </select>
                 <span class="error"><?= $errors['gender'] ?></span>
                 
-                <input type="submit" name="add" value="ADICIONAR" class="submit" value="Submit">
+                <input type="submit" name="add" value="ADICIONAR" class="submit">
             </form>
         </div>
 </section>
-<div class="container-add" id="modal">
-    <div class="modal-content">
-        <h1 class="titulo-add">VOCÊ ADICIONOU UM LIVRO NA SUA ESTANTE!</h1>
-        <h2 class="access-text">ACESSE JÁ SUA ESTANTE!</h2>
-        <div class="add-button">IR PARA ESTANTE</div>
-    </div>
-</div>
-<script src="javascript/script.js"></script>
 </body>
 
 <?php include 'includes/footer.php'; ?>
