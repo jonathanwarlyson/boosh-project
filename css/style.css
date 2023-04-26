@@ -64,7 +64,8 @@ h1, h2, a, label {
     left: 1em;
     right: 1em;
     top: 14em;
-    max-height: 600px;
+    min-height: 600px;
+    max-height: 700px;
     max-width: 400px;
     background: #FCFCF8;
     box-shadow: 0px -7px 14px rgba(0, 0, 0, 0.25);
@@ -184,7 +185,7 @@ input[type=submit] {
     text-align: center;
 }
 
-a {
+#copy-starbtn {
     text-decoration: none;
     color: #FCFCF8;
     padding: 17px 118px;
@@ -237,6 +238,7 @@ a {
     font-size: 26px;
     margin: 0 auto;
     top: 1.5em;
+    color: #BA7E04;
 }
 
 .access-text {
@@ -246,6 +248,7 @@ a {
     font-size: 23px;
     margin: 0 auto;
     position: relative;
+    color: #BA7E04;
 }
 
 .add-button {
@@ -253,15 +256,19 @@ a {
     margin: 0 auto;
     width: 19em;
     height: 3.5em;
-    top: 9em;
+    top: 9.5em;
     background: #FFB319;
     box-shadow: 0px 4px 4px rgba(217, 216, 216, 0.75);
     border-radius: 34px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#copy-shelfbtn {
     font-family: 'azo-sans-web', sans-serif;
     font-size: 16px;
     color: #FAFAF8;
     font-weight: 800;
+    text-decoration: none;
 }

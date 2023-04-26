@@ -7,7 +7,7 @@
         <h2 class="subtitulo">QUE TAL COMEÇAR ADICIONANDO SEU PRIMEIRO LIVRO?</h2>
         <div class="botao">
             <div class="btn-area">
-                <a href="">Começar</a>
+                <a id="copy-startbtn" href="novo-livro.php">Começar</a>
             </div>
         </div>
 </div>

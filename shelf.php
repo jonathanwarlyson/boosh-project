@@ -1,3 +1,5 @@
+<?php include 'adding-new-book.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,33 +22,16 @@
                         <th>LIVRO</th>
                         <th>AUTOR</th>
                         <th>GÊNERO</th>
-                        <th class="endcell">PÁGINAS</th>
+                        <th>PÁGINAS</th>
                     </tr>
                 </thead>
+                
                 <tbody>
                     <tr>
-                        <td>UI Pedia</td>
-                        <td>Pixsel Academy</td>
-                        <td>Estudo</td>
-                        <td class="endcell">626</td>
-                    </tr>
-                    <tr>
-                        <td>PHP & MySQL</td>
-                        <td>Jon Duckett</td>
-                        <td>Estudo</td>
-                        <td class="endcell">660</td>
-                    </tr>
-                    <tr>
-                        <td>PHP & MySQL</td>
-                        <td>Jon Duckett</td>
-                        <td>Estudo</td>
-                        <td class="endcell">660</td>
-                    </tr>
-                    <tr>
-                        <td>PHP & MySQL</td>
-                        <td>Jon Duckett</td>
-                        <td>Estudo</td>
-                        <td class="endcell">660</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
@@ -55,7 +40,7 @@
             <h3 class="plustext">ADICIONE MAIS LIVROS!</h3>
         </div>
         <div class="plus-btn">
-            <div class="sym">+</div>
+            <a href="novo-livro.php" class="sym">+</a>
         </div>
     </div>
 </body>

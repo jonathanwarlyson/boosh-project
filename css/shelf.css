@@ -139,5 +139,9 @@ table tbody td {
     font-size: 48px;
     text-align: center;
     color: #FFB319;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
