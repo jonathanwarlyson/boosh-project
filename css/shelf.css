@@ -43,7 +43,7 @@ h1, h2, a {
     margin: 0 auto;
     font-size: 26px;
     line-height: 40.8px;
-    text-align: center;
+    text-align: left;
     width: 222px;
     height: 57px;
     top: 1.5em;
@@ -67,34 +67,45 @@ table {
     width: 90%;
     margin-left: 1.5em;
     margin-right: 1.5em;
+    border-spacing: 25px;
 }
 
 thead tr {
-    text-align: center;
+    text-align: left;
     font-family: 'azo-sans-web', sans-serif;
     height: 39px; 
     color: #FFB319;
 }
 
 thead th {
-    border-right: 2px solid #C1C0C0;
     font-weight: 900;
+    padding: 15px;
 }
 
 tbody tr {
-    border-top: 2px solid #C1C0C0;
     height: 39px;
-    text-align: center;
+    text-align: left;
     font-family: 'azo-sans-web', sans-serif;
     font-weight: 600;
 }
 
-table tbody td {
-    border-right: 2px solid #C1C0C0;
+tbody td {
+    padding: 15px;
+    border-radius: 0;
 }
 
-.endcell {
-    border: none;
+tbody tr:nth-child(odd){ 
+    background-color: #f1f1f1;
+    border-bottom-right-radius: 20px; }
+
+tbody tr:last-child td {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+table tbody td {
+    padding: 15px;
 }
 
 .plustext {

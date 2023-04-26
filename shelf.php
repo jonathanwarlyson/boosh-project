@@ -36,6 +36,18 @@
                         <td>Estudo</td>
                         <td class="endcell">660</td>
                     </tr>
+                    <tr>
+                        <td>PHP & MySQL</td>
+                        <td>Jon Duckett</td>
+                        <td>Estudo</td>
+                        <td class="endcell">660</td>
+                    </tr>
+                    <tr>
+                        <td>PHP & MySQL</td>
+                        <td>Jon Duckett</td>
+                        <td>Estudo</td>
+                        <td class="endcell">660</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
