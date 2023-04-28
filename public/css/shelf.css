@@ -95,14 +95,16 @@ tbody td {
 }
 
 tbody tr:nth-child(odd){ 
-    background-color: #f1f1f1;
-    border-bottom-right-radius: 20px; }
-
-tbody tr:last-child td {
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    background-color: #f1f1f1; 
 }
 
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 20px;
+}
+      
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 20px;
+}
 
 table tbody td {
     padding: 15px;

@@ -1,6 +1,5 @@
 <?php 
 include 'includes/header.php';
-include 'includes/functions.php';
 ?>
 
 <div class="container-add" id="modal">

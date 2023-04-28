@@ -1,5 +1,3 @@
-<?php include 'adding-new-book.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,10 +26,10 @@
                 
                 <tbody>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>boook</td>
+                        <td>boook</td>
+                        <td>boook</td>
+                        <td>boook</td>
                     </tr>
                 </tbody>
             </table>
