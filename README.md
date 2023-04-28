@@ -1,23 +1,21 @@
 PROJETO BOOSH!
 **EM DESENVOLVIMENTO**
 
-Um site responsivo que possibilita adicionar livros a uma estante virtual a fim de organiza-los. A principal tecnologia utilizada é PHP e em breve MySQL.
+O BOOSH! será um site responsivo que possibilitará adicionar livros a uma estante virtual a fim de organizá-los. A principal tecnologia utilizada é PHP e MySQL. Tenho como principal foco, nesse primeiro momento de desenvolvimento, o desenvolvimento server-side, porém não deixando o client-side de lado. O meu objetivo é fazer a primeira versão do site sendo a base para todos os futuros features que estou planejando adicionar.
 
 Em sua primeira versão, ainda sendo desenvolvida, se espera contar com as seguintes funcionalidades:
-- Possibilidade de adicionar livros à Estante através de um cadastro.
-- Adicionar características do livro como nome, autor, número de páginas e gênero.
-- Visualizar a Estante: uma tabela com os livros adicionados.
-- Saber o total de livros na Estante.
-- Site responsivo.
+- Possibilidade de adicionar livros à Estante através de um cadastro;
+- Login;
+- Adicionar características do livro como nome, autor, número de páginas e gênero;
+- Visualizar a Estante: uma tabela com os livros adicionados;
+- Saber o total de livros na Estante;
+- Responsividade.
 
 Para futuras versões, planejo adicionar as seguintes funcionalidades:
-- Deve ter um input de imagem para servir de capa para os livros.
+- Possibilidade de editar a tabela, visualização, ordenação do conteúdo;
+- Deve ter um input de imagem para servir de capa para os livros;
+- Perfil do usuário;
 - Classificação dos livros por estrelas e anotações;
 - Modo noturno;
-- Sistema de login;
-- Banco de dados;
-- E outros.
-
-Para saber mais sobre, veja o Notion do projeto:
-https://principled-bunny-c61.notion.site/Projeto-Boosh-04cd440f3a1c403e8268554ea5376e1c
+- E outras.
 
