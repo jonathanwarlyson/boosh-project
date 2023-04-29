@@ -3,7 +3,7 @@
 class Validate 
 {
 
-    public static function isNumber($number, $min = 0, $max = 100): bool {
+    public static function isNumber($number, $min = 0, $max = 3000): bool {
         return ($number >= $min and $number <= $max);
     }
 
